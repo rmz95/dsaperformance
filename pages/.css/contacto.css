@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.main__Titulo {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0px 350px 0px 0px;
+    margin: 50px 0px 20px 0px;
+}
+
+.main__Contacto {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.main__Descripcion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+}
+
+.main__Formulario {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border: 10px double rgba(148, 0, 0, 0.726);
+}
+
+form {
+    margin: 15px 15px 15px 15px;
+}

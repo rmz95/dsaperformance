@@ -1,0 +1,185 @@
+*
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "logonavbar"
+        "mainpage"
+        "piepagina";
+    grid-template-rows: 88px 580px 170px;
+}
+
+nav {
+    grid-area: logonavbar;
+    background-color: rgb(34, 34, 34);
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows: 5.5rem;
+}
+
+.logohome{
+    font-size: 3rem;
+    margin-left: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.navbar {
+    display: flex;
+    font-size: 20px;
+    margin: 10px 0px 0px 0px;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
+
+.navbar__Lista {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+}
+
+main {
+    grid-area: mainpage;
+}
+
+.video__Dedicacion {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    padding: 0px;
+}
+
+.video__Titulo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    padding: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.video__Presentacion {
+    display: flex;
+    padding: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.video__Lista {
+    display: flex;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.video__Lista li {
+    list-style-image: url(./pages/.css/icons/suspension32px.png);
+}
+
+hr {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+footer {
+    grid-area: piepagina;
+}
+
+.footer__Background {
+    background-color: rgb(122, 39, 39);
+    margin: 0%;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.footer__Copyright {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+.footer__CopyTexto {
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.imgredes{
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer__Redes {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer__Titulo {
+    margin: 0px
+}
+
+.footer__Descripcion {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+.footer__Contacto {
+    margin: 10px 10px 0px 0px;
+    text-decoration-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer__Texto {
+    margin: 0px;
+    text-decoration-style: none;
+}
+
+@media screen and (min-width:1000px) {
+    .grid-container {
+        grid-template-areas: 
+        "logonavbar"
+        "mainpage mainpage"
+        "piepagina piepagina";
+        grid-template-rows: 88px 580px 170px;
+    }
+}

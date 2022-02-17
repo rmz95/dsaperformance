@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.img__Galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img__Columna1 {
+    margin: 30px 10px 50px 50px;
+    padding: 0px 0px 0px 40px;
+}
+
+.img__Columna2 {
+    margin: 30px 10px 50px 50px;
+}
+
+.img__Columna3 {
+    margin: 30px 10px 50px 50px;
+}
