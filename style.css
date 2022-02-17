@@ -5,10 +5,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.grid-container {
-    display: grid;
-}
-
 nav {
     grid-area: logonavbar;
     background-color: rgb(34, 34, 34);
@@ -44,10 +40,6 @@ nav {
 
 .navbar li {
     display: inline;
-}
-
-main {
-    grid-area: mainpage;
 }
 
 .video__Dedicacion {
@@ -98,10 +90,6 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-}
-
-footer {
-    grid-area: piepagina;
 }
 
 .footer__Background {
