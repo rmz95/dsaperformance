@@ -7,11 +7,6 @@ body{
 
 .grid-container {
     display: grid;
-    grid-template-areas:
-        "logonavbar"
-        "mainpage"
-        "piepagina";
-    grid-template-rows: 88px 580px 170px;
 }
 
 nav {
@@ -172,14 +167,4 @@ footer {
 .footer__Texto {
     margin: 0px;
     text-decoration-style: none;
-}
-
-@media screen and (min-width:1000px) {
-    .grid-container {
-        grid-template-areas: 
-        "logonavbar"
-        "mainpage mainpage"
-        "piepagina piepagina";
-        grid-template-rows: 88px 580px 170px;
-    }
 }
