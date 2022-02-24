@@ -2,19 +2,17 @@
     box-sizing: border-box;
 }
 
-.grid-item3 {
-    display:grid;
-    grid-template-columns: auto auto 100px;
-    grid-template-rows: 100px 300px 150px;
-}
-
-section {
-    grid-column: 1 /span 3;
-}
-
 article {
-    grid-column: 1 /span 2;
-    grid-row: 2 /span 4;
+    width: 100%;
+}
+
+.video__Titulo {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .video__Nosotros {
@@ -26,5 +24,5 @@ article {
 .video__Nosotros p {
     display: flex;
     justify-content: center;
-    margin: 50px 20px 10px 60px;
+    margin: 0px 0px 0px 60px;
 }

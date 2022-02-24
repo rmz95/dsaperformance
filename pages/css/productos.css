@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-.grid-itemprod {
-    display: grid;
+section {
+    width: 100%;
 }
 
 .img__Productos {
@@ -71,7 +71,7 @@
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 222px;
+    margin-left: 20px;
 }
 
 .list__Servicios li {
